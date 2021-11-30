@@ -1,0 +1,416 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awito - Food and Travel</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+  </head>
+<body>
+
+  <!-- Comienzo Etiqueta canvas para menu oculto-->
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+    <!--Menu oculto solo visible al accionar el boton-->
+    <ul class="menu vertical" id = "menuVertical2">
+
+      <li>
+        <label id = "lblTituloMenuCanvas">
+          Awito - User Area
+        </label>
+      </li>
+
+      <li class =" opcionesMenuCanvas">
+          <p><button id ="btnIniciarSesion" class="button" data-open="exampleModal2">Iniciar Sesión</button></p>
+      </li>
+      
+      <li class =" opcionesMenuCanvas">
+          <p><button id ="btnRegistro" class="button" data-open="exampleModal1">Registrarse</button></p>
+      </li>
+
+      <li class =" opcionesMenuCanvas">
+        <p><button id ="btnAyuda" class="button" data-open="exampleModal3">ayuda</button></p>
+      </li>
+
+      <li class =" opcionesMenuCanvas">
+        <button class="close-button" aria-label="Regresar" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- Comienzo etiqueta canvas para parte principal y visible -->
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- Contenido Principal y visible de la pagina -->
+
+        <!-- Seccion Menu con las 3 categorias principales, turismo, comida y eventos-->
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" id = "menuDrop" data-dropdown-menu>
+                  <li class="menu-text">Awito</li>
+                  <li class ="is-dropdown-submenu-parent" id = "submenu-1"><a href="#">Gastronomía</a>
+                    <ul class="menu vertical" id ="menuVertical">
+                      <li class ="opcionesMenu"><a href="#">Platos a la Carta</a></li>
+                      <li class ="opcionesMenu"><a href="#">Cevichería y Mariscos</a></li>
+                      <li class ="opcionesMenu"><a href="#">Comidas Rápidas</a></li>
+                    </ul>
+                  </li>
+                  <li class ="opcionesMenu"><a href="#">Turismo</a></li>
+                  <li class ="opcionesMenu"><a href="#">Eventos</a></li>     
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li class ="opcionesMenu"><button id ="btnUserAdmin" type="button" class="button" data-toggle="offCanvas">Login</button></li>
+              <li class ="opcionesMenu"><input type="search" placeholder="Buscar"></li>
+              <li class ="opcionesMenu"><button id ="btnBuscar" type="button" class="button">Buscar</button></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Tenemos la parte superior o cabecera, con logo y lema de la pagina-->
+        <div class = "grid-x align-center" id = "headerMain">
+              <div class = "cell small-2 align-self-center" id ="logoTAG3">
+                <a href="https://get.foundation/sites/docs/xy-grid.html" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/img/awitoLogo.png" id ="logoContainerDos">
+                  <label><p id = "lemaTres">En Tumaco, de todo un poquito</p></label> 
+                </a>
+                                                              
+              </div> 
+        </div>
+        
+        <!-- Tenemos la seccion con las 3 categorias principales, turismo, comida y eventos-->
+        <div class = "grid-x grid-padding-x align-center" id = "contenedorTarjetas">
+            <div class = "cell medium-3 self-align-stretch">
+            <a href="http://www.google.com" target="_blank">
+              <div class="card">
+                <div class="card-divider align-center">
+                  <p class = "tituloCartaPrincipal">Gastronomía</p>
+                </div>
+                <img src="assets/img/comida.jpg">
+                <div class="card-section">
+                  <h4 class ="subtituloCarta">Delicias del Pacifico Colombiano</h4>
+                  <br>
+                  <p>Encuentra aqui los restaurantes con los platos mas deliciosos y autenticos de nuestra region.</p>
+                  <br>
+                  <br>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <div class = "cell small-3 self-align-stretch">
+              <a href="http://www.google.com" target="_blank">
+                <div class="card">
+                  <div class="card-divider align-center">
+                    <p class = "tituloCartaPrincipal">Eventos</p>
+                  </div>
+                  <img src="assets/img/carnaval2.jpg">
+                  <div class="card-section">
+                    <h4 class ="subtituloCarta">Una Experiencia Inolvidable</h4>
+                    <br>
+                    <br>
+                    <p>Arma tu plan con los eventos que se llevan a cabo en nuestro bello Municipio.</p>
+                    <br>
+                    <br>
+                  
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class = "cell small-3 self-align-stretch">
+              <a href="http://www.google.com" target="_blank">
+              <div class="card">
+                
+                <div class="card-divider align-center">
+                  <p class = "tituloCartaPrincipal">Puntos de Interés</p>
+                </div>
+
+                <img src="assets/img/colon.jpg">
+                <div class="card-section">
+
+                  <h4 class ="subtituloCarta">Historia en cada una de sus calles</h4>
+                  <br>
+                  <p>Descubre los sitios mas importantes en la perla del pacifico, ¡Conoce un poco de nuestra Historia!</p>
+                  <br>
+                  <br>
+                </div>
+
+              </div>
+              </a>     
+            </div>
+
+        </div>
+        
+        <!-- Tenemos la seccion con las 2 categorias Mapa y Galeria-->
+        <div class = "grid-x grid-padding-x align-center" id = "contenedorTarjetas">
+          <!-- Seccion con el mapa de Tumaco-->
+          <div class = "cell small-5 self-align-stretch">
+          <a href="#" target="_blank">
+            <div class="card">
+              <div class="card-divider align-center">
+                <p class = "tituloCartaPrincipal">Mapa</p>
+              </div>
+              <div class="card-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53653.73975942773!2d-78.79437511063264!3d1.8052586582042822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2d02830fcf36e9%3A0xe4f302c1850adc34!2sTumaco%2C%20San%20Andres%20de%20Tumaco%2C%20Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1634524953122!5m2!1ses!2sco" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </a>
+          </div>
+          <!-- Seccion con el carrusel, orbit-->
+          <div class = "cell small-5 self-align-stretch">
+            
+              <div class="card">
+                <div class="card-divider align-center">
+                  <p class = "tituloCartaPrincipal">Galeria</p>
+                </div>
+                <div class="card-section">
+                  <!-- declaramos el contenedor del carrusel, orbit-->
+                  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-use-m-u-i="false">
+                    <div class="orbit-wrapper">
+                      <div class="orbit-controls">
+                        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                      </div>
+                      <!-- Elementos del orbit-->
+                      <ul class="orbit-container">
+
+                        <li class="is-active orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="assets/img/ramada1.jpg" alt="Space">
+                            <figcaption class="orbit-caption">¡Pide ya tu domicilio!</figcaption>
+                          </figure>
+                        </li>
+                        
+                        <li class="orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="assets/img/ramada2.jpg" alt="Space">
+                            <figcaption class="orbit-caption">El mejor restaurante de la ciudad.</figcaption>
+                          </figure>
+                        </li>
+
+                        <li class="orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="assets/img/ramada3.jpg" alt="Space">
+                            <figcaption class="orbit-caption">Instalaciones de Lujo.</figcaption>
+                          </figure>
+                        </li>
+
+                        <li class="orbit-slide">
+                          <figure class="orbit-figure">
+                            <img class="orbit-image" src="assets/img/ramada4.jpg" alt="Space">
+                              <figcaption class="orbit-caption">Los platos mas deliciosos.</figcaption>
+                          </figure>
+                        </li>
+
+                      </ul>
+                    </div>
+                    <!-- botones de navegacion del orbit / carrusel-->
+                    <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0">
+                      <span class="show-for-sr">First slide details.</span>
+                      <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+                    </button>
+                      <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                      <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                      <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                    </nav>
+                  </div>
+
+                </div>
+              </div>
+            
+          </div>
+
+        </div>
+
+        <!-- SECION DEL FOOTER-->
+        <footer class="callout large secondary">
+          
+          <!-- Contenido Principal del footer-->
+          <article class="grid-container">
+          <!-- Descripcion del footer-->
+          <div class="grid-x">
+            <div class="large-4 cell" >
+              <h5 id ="footerInfoTitulo">Awito, siempre contigo...</h5>
+              <p id ="footerInfo">Somos tu aliado para que descubras todas las maravillas de Tumaco, acompañado de una deliciosa comida de nuestra region. Queremos que tu experiencia en la Perla del pacifico sea epica y memorable.</p>
+            </div>
+            <div class="large-3 large-offset-2 cell">
+            
+
+            </div>
+            <!-- redes sociales del footer-->
+            <div class="large-3 cell">
+              <ul class="menu vertical" id ="menuRedes">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twiter</a></li>
+                <li><a href="#">Email</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          </article>
+          <br>
+          <br>
+          <hr>
+          <!-- Derechos de autor-->
+          <div class="grid-x align-center" id ="derechosReservados">
+            <p><button class="button" data-open="exampleModal3" id="btnModalHome"> 
+              
+              </button>
+            </p>
+          </div>
+        </footer>
+
+        
+  
+    <!--zona de Modales (elementos emergentes o cuadros de dialogo)-->
+      <!-- Modal 1 (Registro)-->
+        <div class="small reveal" id="exampleModal1" data-reveal>
+          <!--Inicio del formulario-->
+          <div class = "grid-x grid-padding-x align-center" id ="gridEmergente">
+
+            <form id ="frmRegistro">
+              <div id = "ctnRegistro" class="grid-container">
+
+                <!--HEADER DEL FORM-->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label id ="lblTituloFormulario">
+                      Registro
+                    </label>
+                  </div> 
+                </div>
+                    <!--LABEL 1 (NOMBRES) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label class ="lblCampos">Nombres:
+                        <input type="text" placeholder=".su nombre" required>
+                    </label>
+                  </div> 
+                </div>
+                    <!--LABEL 2 (APELLIDOS) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label class ="lblCampos">Apellidos:
+                      <input type="text" placeholder=".su apellido" required>
+                    </label>
+                  </div> 
+                </div>
+
+                <!--LABEL 2.2 (CORREO) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label class ="lblCampos">Correo Electrónico:
+                      <input type="email" placeholder=".mail@mail.com" required>
+                    </label>
+                  </div> 
+                </div>
+
+                <!--LABEL 2.3 (CONFIRMA CORREO) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label class ="lblCampos">Confirma Correo Electrónico:
+                      <input type="email" placeholder=".mail@mail.com" required>
+                    </label>
+                  </div> 
+                </div>
+
+                    <!--LABEL 2.4 (CONTRASEÑA) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label class ="lblCampos">Contraseña:
+                      <input type="password" aria-describedby="passwordHelpText" required>
+                    </label>
+                    <p class="help-text" id="passwordHelpText">** Tu contraseña debe contener al menos una mayúscula, un numero y tener una logitud minima de 8 caracteres.</p>
+                  </div> 
+                </div>
+
+                <!--LABEL 2.5 (CONFIRMA CONTRASEÑA) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label class ="lblCampos">Confirma Contraseña:
+                        <input type="password" aria-describedby="passwordHelpText" required>
+                    </label>
+                    <p class="help-text" id="passwordHelpText">!</p>
+                  </div> 
+                </div>
+
+                <!--LABEL 3 EDAD CON SELECTOR -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <label class ="lblCampos">
+                      Edad:
+                      <input class ="inptNumero" type="number" value="none" min ="4" max ="125" required>
+                    </label>
+                  </div> 
+                </div>
+                <br>
+
+                <!--FIELDSET RADIAL (SEXO) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <fieldset class="large-8 cell">
+                      <legend id ="lgnSexo">Sexo de Nacimiento</legend>
+                      <input  type="radio" name="sexoN" value="M" id="sexoMasculino" required><label class = "lblChooser" for="sexoMasculino">Masculino </label>
+                      <input  type="radio" name="sexoN" value="F" id="sexoFemenino"><label class = "lblChooser" for="sexoFemenino" >Femenino</label>
+                    </fieldset>
+                  </div> 
+                </div>
+        
+                <br>
+                <!--FIELDSET CHECK (INTERES) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-8 cell">
+                    <fieldset class="large-8 cell">
+                          <legend>Interéses</legend>
+                          <input id="checkGastro" type="checkbox"><label class = "lblChooser" for="checGastro">Gastronomía</label>
+                          <input id="checkTurismo" type="checkbox"><label class = "lblChooser" for="checkTurismo">Turismo</label>
+                          <input id="checkEvento" type="checkbox"><label class = "lblChooser" for="checkEvento">Eventos</label>
+                    </fieldset>
+                  </div> 
+                </div>  
+                    <br>
+                  
+                  
+                <!--BOTONES (GUARDAR - LIMPIAR) -->
+                <div class="grid-x grid-padding-x align-center">
+                  <div class="medium-2 cell">
+                    <button class="hollow button" type ="submit" href="#">Guardar</button>
+                  </div> 
+                <div class="medium-2 cell"></div>
+                  <button class="hollow button secondary" type ="reset" href="#">Limpiar</button>
+                </div>
+            
+                <!--Boton de cerrar el modal-->
+                <button class="close-button" data-close aria-label="Close modal" type="button">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div> 
+            </form>  
+          </div> 
+        </div>
+      <!-- Modal 2 (Home Software)-->
+        <div class="reveal" id="exampleModal3" data-reveal>
+        <img src="assets/img/HomeSoft.PNG" alt="" srcset="">
+
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        
+        </div>  
+      
+  </div>
+ 
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/foundation.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

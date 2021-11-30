@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,900&display=swap');
+
+#logoTAG3{
+    padding-top: 1%;
+    margin-right: 0.5%;
+    text-align: right;
+    align-self: top;
+    height: 370px;   
+}
+
+#logoTAG1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    margin-left: 0.5%;
+    text-align: left;
+    align-self: top;
+    height: 370px; 
+}
+
+#logoTAG2{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    margin-right: 0.5%;
+    text-align: center;
+    align-self: top;
+    height: 370px;
+}
+
+#lemaUno{
+    background-color: rgb(195, 115, 41);
+    width: 200px;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    align-content: left;
+}
+
+#lemaDos{
+    background-color: rgb(195, 115, 41);
+    width: 200px;
+    padding-bottom: 4%;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    align-content: right;
+    margin-left: 11%;
+}
+
+#lemaTres{  
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    margin-left: 11%;
+    margin-top: -20%;  
+}
+
+#btnUserAdmin{
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    margin-right: 10px;
+    background-color: rgb(195, 115, 41);
+    text-align: center;
+}
+
+.top-bar{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+.top-bar-left{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+.top-bar-right{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+.menu{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+#submenu-1{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+.menu-text{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+.opcionesMenu{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+.opcionesMenuCanvas{
+    font-weight: 700;
+    font-size: large;
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+    background: rgba(209,224,221,1);
+    background: linear-gradient(266deg, rgba(209,224,221,1) 0%, rgba(195,115,41,1) 100%);
+    margin-left: 8%;
+}
+
+#menuVertical{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+#menuVertical2{
+    font-weight: 700;
+    font-size: large;
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+    background: rgb(209,224,221);
+    background: linear-gradient(266deg, rgba(209,224,221,1) 0%, rgba(195,115,41,1) 100%);
+}
+
+#lblTituloMenuCanvas{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background: rgb(209,224,221);
+    background: linear-gradient(266deg, rgba(209,224,221,1) 0%, rgba(195,115,41,1) 100%);
+}
+
+#menuDrop{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    background-color: rgb(209,224,221);
+}
+
+#offCanvas{
+    font-weight: 700;
+    font-size: large;
+    color: rgb(12,73,92);
+    background: rgb(209,224,221);
+    background: linear-gradient(266deg, rgba(209,224,221,1) 0%, rgba(195,115,41,1) 100%);
+}
+
+#ctnRegistro{
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: large;  
+}
+
+#exampleModal2{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(12,73,92);
+}
+
+#lblTituloFormulario{
+    font-size: xx-large;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: rgb(12,73,92);
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.lblCampos{
+    font-size: large;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    color: rgb(12,73,92);
+    margin-bottom: 2%;
+}
+
+#lgnSexo{
+    font-size: large;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    color: rgb(12,73,92);
+    margin-bottom: 2%;
+}
+
+.lblChooser{
+    font-size: large;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    color: rgb(12,73,92);
+    margin-bottom: 2%;
+}
+
+.inptNumero{
+    font-size: large;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    color: rgb(12,73,92);
+    margin-bottom: 2%;
+}
+
+.help-text{
+    font-size: small;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    color: rgb(12,73,92);
+}
+
+#exampleModal1{
+    background: rgb(209,224,221);
+    background: linear-gradient(266deg, rgba(209,224,221,1) 0%, rgba(195,115,41,1) 100%);
+}
+
+#frmRegistro{
+    background: rgb(209,224,221);
+    background: linear-gradient(266deg, rgba(209,224,221,1) 0%, rgba(195,115,41,1) 100%);
+}
+
+#btnBuscar{  
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+    margin-right: 5px;
+    background-color: rgb(195, 115, 41);
+}
+
+#btnIniciarSesion{
+    font-weight: 700;
+    text-align: center;
+    font-size: large;
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+#btnRegistro{
+    font-weight: 700;
+    text-align: center;
+    font-size: large;
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+#btnAyuda{
+    font-weight: 700;
+    text-align: center;
+    font-size: large;
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+#logoContainer{
+    background-color: rgb(195, 115, 41);
+}
+
+.tituloCartaPrincipal{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+}
+
+.card-section{
+    font-size: medium;
+    text-align: justify;
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.subtituloCarta{
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+}
+
+#headerMain{
+    background-image: url("../img/fondo3.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+}
+
+#mapita{
+    width: 400px;
+    height: 600px;
+}
+
+#contenedorTarjetas{
+    background: rgb(209,224,221);
+    background: radial-gradient(circle, rgba(209,224,221,1) 0%, rgba(12,73,92,1) 100%);
+    background-position: center;
+    background-repeat: repeat-x;
+    padding-top: 2%;
+}
+
+#footerInfo{
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;  
+    color: rgb(12,73,92);
+    font-family: 'Varela Round', sans-serif;
+}
+
+#footerInfoTitulo{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(12,73,92);
+}
+
+#menuRedes{
+    text-align: justify;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 10px;
+    color: rgb(12,73,92);
+}
+
+#derechosReservados{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 10px;
+    
+}
+
+#btnModalHome{
+    background-color: transparent;
+    color: rgba(12, 73, 92, 0.733);
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+
